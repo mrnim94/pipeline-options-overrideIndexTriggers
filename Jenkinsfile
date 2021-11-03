@@ -3,7 +3,7 @@ pipeline {
     options {	
 		timestamps()
 		//overrideIndexTriggers(false)
-	        overrideIndexTriggers(env.BRANCH_NAME == 'thang')
+	        //overrideIndexTriggers(env.BRANCH_NAME == 'thang')
     }
     stages {	
         stage('Build') {	
